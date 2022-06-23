@@ -21,7 +21,7 @@ echo "\n";
 
 $today = new DateTime('now');
 $date_time = new DateTime('2020-01-01');
- 
+
 $diff = $today->diff($date_time);
 
 echo "2020年元旦から現在までの経過日数は".$diff->days."日です。";
