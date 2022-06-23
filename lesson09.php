@@ -9,6 +9,7 @@
 
 // という形で区別し、
 // ○○点は「○」です。と出力してください。
+
 $scores = array(10, 60, 90, 70, 50);
 foreach ($scores as $score) {
     if ($score >= 80) {
