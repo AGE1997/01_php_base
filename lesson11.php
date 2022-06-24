@@ -20,9 +20,8 @@ echo "現在日時から12時間前 ".date('Y年m月d日 H時i分s秒', strtotim
 echo "\n";
 
 $today = new DateTime('now');
-
 $date_time = new DateTime('2020-01-01');
-
+ 
 $diff = $today->diff($date_time);
 
 echo "2020年元旦から現在までの経過日数は".$diff->days."日です。";
