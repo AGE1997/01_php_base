@@ -7,6 +7,7 @@
 // 「○○○円です。」という形で出力してください。
 
 $chocolate = 100 * 1;
+
 $candy = 50 * 3;
 
 $sum = $chocolate + $candy;
